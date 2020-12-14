@@ -61,17 +61,3 @@ let display = (json) => {
 }
 
 let list = document.querySelector('ol');
-
-// let holding = document.createElement('div');
-// let para = document.createElement('ol');
-// let btn = document.createElement('button');
-// let div = document.createElement('div');
-// let br = document.createElement('br');
-// let hr = document.createElement('hr')
-
-
-// btn.textContent = `${current.title}`;
-// para.textContent = `${current.description}`;
-// div.setAttribute('class', 'content');
-// btn.setAttribute('class', 'collapsible');
-// holding.setAttribute('class', 'col-md-6')

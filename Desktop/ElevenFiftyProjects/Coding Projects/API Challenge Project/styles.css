@@ -1,13 +1,18 @@
 body {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-image: url("img/joe-woods-4Zaq5xY5M_c-unsplash.jpg");
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url("img/studio\ ghibli.PNG");
 }
 
 .flip-card {
     background-color: transparent;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: ridge;
+    border-radius: 0%;
     width: 300px;
-    height: 300px;
+    height: 500px;
     perspective: 1000px;
 }
 
@@ -35,14 +40,24 @@ body {
 }
 
 .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: rgba(0, 0, 255, 0.328);
+    color: white;
 }
 
 .flip-card-back {
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-style: italic;
+}
+
+h3 {
+    font-style: italic;
 }
 
 
@@ -85,22 +100,3 @@ body {
     color: white;
     transform: rotateY(180deg);
 }*/
-
-
-/* <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <img src="img/ihor-malytskyi-XjvWEsPTDeY-unsplash.jpg" alt="Avatar" style="width:300px;height:300px;">
-                </div>
-                <div class="flip-card-back">
-                    <div class="content" style="max-height: 241px;">
-                        <h1></h1>
-                        <li>
-
-                        </li>
-
-
-                    </div>
-                </div>
-            </div>
-        </div> */
