@@ -1,0 +1,79 @@
+body {
+    background: rgb(128, 71, 94);
+    background: linear-gradient(0deg, rgba(128, 71, 94, 1) 0%, rgba(52, 52, 74, 1) 100%);
+    background-size: 100% 250%;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 40px;
+    width: 100%;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 20px;
+}
+
+.nav-item:hover {
+    color: rgba (255, 255, 255, 0.7);
+}
+
+.login {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.login-bg {
+    display: flex;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px 50px 30px;
+    border-radius: 5px;
+}
+
+input {
+    margin: 10px;
+    border-radius: 2px;
+    border: none;
+    width: 250px;
+}
+
+button {
+    background-color: rgba(204, 90, 113, 1);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgba(204, 90, 113, 1);
+}
